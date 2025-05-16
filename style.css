@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-width: 150vh; */
+  /* /* background-color: aqua; */
+  /* background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);  */
+  /* background-repeat: no-repeat; */
+  background: linear-gradient(454deg, #404c80, #53ff88);
+  background-size:cover;
+}
+h2{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+p{
+  font-weight: bolder;
+}
+
+.container {
+  background-color: aliceblue;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 25vh;
+margin-top: 15vh;
+  width: 50vh;
+  text-transform: capitalize;
+}
+
+form {
+  margin: 2rem 0 1rem 0;
+  text-transform: capitalize;
+}
+
+form select,button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  /* border: 2px solid black; */
+}
+
+form input {
+  border: 1px solid lightgray;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+  border: 2px solid;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.select-container img {
+  max-width: 4rem;
+  /* display:inline-block; */
+}
+.select-container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border-color: red;
+
+  width: 6rem;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+
+}
+.btn{
+    background-color: aquamarine;
+    height: 3rem;
+    cursor: pointer;
+}
+#fromcountry{
+    border:1px solid black;
+
+
+}
+#tocountry{
+    border:1px solid black;
+
+
+}
+.msg{
+  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding:1rem;
+  margin-top: 1rem;
+  border: 2px solid black;
+  /* height: 1rem; */
+  font-size:1.5rem;
+  border-radius: 1rem;
+  
+
+}
+.from select{
+  border: 2px solid black;
+}
+.to select{
+  border: 2px solid black;
+}
